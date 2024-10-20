@@ -18,6 +18,8 @@ Built with:
 We'd like to give a shoutout to the amazing individuals who joined us for this fun-filled coding session:
 
 - [![AICHE-H](https://img.shields.io/github/followers/Aiche-H.svg?style=social&label=Aiche-H)](https://github.com/Aiche-H)
-- [![ValetteFI](https://img.shields.io/github/followers/USERNAME.svg?style=social&label=USERNAME)](https://github.com/USERNAME)
+- [![ValetteFI](https://img.shields.io/github/followers/ValetteFI.svg?style=social&label=ValetteFI)](https://github.com/ValetteFI)
+- [![henhells14](https://img.shields.io/github/followers/henhells14.svg?style=social&label=henhells14)](https://github.com/henhells14)
+- [![konstaahmanheimo](https://img.shields.io/github/followers/konstaahmanheimo.svg?style=social&label=USERNAME)](https://github.com/konstaahmanheimo)
+- [![ilskii](https://img.shields.io/github/followers/ilskii.svg?style=social&label=ilskii)](https://github.com/ilskii)
 - [![USERNAME](https://img.shields.io/github/followers/USERNAME.svg?style=social&label=USERNAME)](https://github.com/USERNAME)
-  (and so on...)
