@@ -1,0 +1,84 @@
+:root {
+    --body-bg-color:#FFC5C5;
+    --container-bg-color: #ffffff;
+    --submit-button-bg-color: #88ff01;
+    --restart-button-bg-color: #FF0000;
+    --box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    --font-size: 16px;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--font-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+
+}
+
+.container {
+    width: 60vw;
+    height: 40vh;
+    background-color: var(--container-bg-color);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 15px;
+}
+.container img{
+    height: 250px;
+}
+
+.wordContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.wordContainer span {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid var(--blackish-grey-3);
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.keyboardButton {
+    width: 50px;
+    height: 50px;
+    font-size: 2rem;
+    margin: 10px;
+    box-shadow: var(--box-shadow);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.restartButton  {
+    background-color: var(--restart-button-bg-color);
+}
+
+.submitButton {
+    background-color: var(--submit-button-bg-color);
+}

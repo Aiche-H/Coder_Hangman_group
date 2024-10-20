@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!--
+     I WILL ADD EVERYONE AS CONTRIBUTORS FOR THIS
+                            SO
+     ADD YOUR GITHUB NAME TO THE AUTHOR META DATA
+     AND AT THE END OF IT ADD A ", " FOR SEPARATION FROM THE NEXT NAME
+     THAT WAY I CAN ADD YOU AS A CONTRIBUTOR EASIER!!
+                            ↘↓↙
+    -->
+    <meta name="author" content="Aiche-H, ValetteFI, henhells14, konstaahmanheimo, ilskii"/>
+
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Hangman Game</title>
+  </head>
+  <body>
+      <section class="container">
+          <h2 id="resultText" class="resultText">Hangman Game</h2>
+          <img id="hangmanImage" src="./Images/Hangman.png" alt="hangman image">
+      </section>
+
+      <section class="container">
+        <div id="wordContainer" class="wordContainer"></div>
+        <input type="text" id="inputField" placeholder="Guess A Letter"
+        maxlength="1" />
+
+        <div id="keyboardContainer" class="keyboardContainer">
+          <button id="restartButton" class="keyboardButton restartButton">↺</button>
+          <button id="submitButton" class="keyboardButton submitButton">↵</button>
+        </div>
+      </section>
+
+    <script type="module" src="./JavaScript/script.js"></script>
+  </body>
+</html>
